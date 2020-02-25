@@ -1,0 +1,429 @@
+@CHARSET "ISO-8859-1";
+body
+{
+	background-color: #ffffff;
+}
+#mainFrame
+	{
+		width: 100%;
+		height: 100%;
+	}
+	
+#administratorWelcomeFrame
+	{
+		width: 100%;
+		height: 100%;
+	}
+	
+#LoginFormDiv, #AdminLoginFormDiv
+	{
+		position:absolute;
+		width:300px;
+		height:420px;
+		padding: 0.6%;
+		border: 5px solid #999;
+		background-color: #e9e9e9;	
+	}
+
+#LoginFormDiv img,#AdminLoginFormDiv img
+	{
+		position: relative;
+		left: 5%;
+		width: 80%;
+		height: 100%;
+		padding: 3%;
+		opacity: 1;
+		
+	}	
+
+.adminHeaderText
+	{
+		position: absolute;
+		left:0px;
+		top: 7px;
+		height: 30px;
+		font-size:26px;
+		font-weight: 700;
+		font-family: "Century Gothic";
+		color: #ff8040;
+	}
+	
+.adminHeader
+ 	{ 
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:60px;	
+		z-index:10;
+		background: rgba(255,255,255,1);
+		background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(240,210,184,1) 26%, rgba(245,160,86,1) 44%, rgba(232,161,106,1) 55%, rgba(235,130,61,1) 71%, rgba(242,116,19,1) 100%);
+		background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(10%, rgba(255,255,255,1)), color-stop(26%, rgba(240,210,184,1)), color-stop(44%, rgba(245,160,86,1)), color-stop(55%, rgba(232,161,106,1)), color-stop(71%, rgba(235,130,61,1)), color-stop(100%, rgba(242,116,19,1)));
+		background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(240,210,184,1) 26%, rgba(245,160,86,1) 44%, rgba(232,161,106,1) 55%, rgba(235,130,61,1) 71%, rgba(242,116,19,1) 100%);
+		background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(240,210,184,1) 26%, rgba(245,160,86,1) 44%, rgba(232,161,106,1) 55%, rgba(235,130,61,1) 71%, rgba(242,116,19,1) 100%);
+		background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(240,210,184,1) 26%, rgba(245,160,86,1) 44%, rgba(232,161,106,1) 55%, rgba(235,130,61,1) 71%, rgba(242,116,19,1) 100%);
+		background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 10%, rgba(240,210,184,1) 26%, rgba(245,160,86,1) 44%, rgba(232,161,106,1) 55%, rgba(235,130,61,1) 71%, rgba(242,116,19,1) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f27413', GradientType=1 );
+	}
+	
+#adminHome img
+	{
+		position: absolute;
+		width: 40px;
+		height: 40px;
+		cursor: pointer;
+	}
+	
+#adminLogout img
+	{
+		position: absolute;
+		width: 35px;
+		height: 35px;
+		cursor: pointer;
+	}
+	
+#adminHome
+	{
+		position: absolute;
+		right: 50px;
+		top: 10px;
+		width: 35px;
+		height: 30px;
+		opacity: 0.8;
+		cursor: pointer;
+	}
+	
+#adminLogout
+	{
+		position: absolute;
+		right: 10px;
+		top: 15px;
+		width: 30px;
+		height: 25px;
+		opacity: 1;
+		cursor: pointer;
+	}
+	
+#adminLogo img
+	{
+		position: absolute;
+		width: 70px;
+		height: 50px;
+		opacity: 1;
+		cursor: pointer;
+	}
+
+#adminLogo
+	{
+		position: fixed;
+		left:2px;
+		top:2px;
+		width: 70px;
+		height: 50px;
+		opacity: 1;
+		z-index:1;
+	}
+
+#adminWelcome
+	{
+		position: absolute;
+		left:0px;
+		top: 38px;
+		height: 30px;
+		font-size:10px;
+		font-family: "Century Gothic";
+		color: #000000;
+	}
+	
+#adminHeaderText img
+	{
+		position: relative;
+		top: 0;
+		width: 20px;
+		height: 20px;
+		opacity: 0.7;
+	}
+
+#adminHome img:hover,#adminLogout img:hover, #adminHeaderText img:hover, #adminLogo img:hover
+	{
+		opacity: 1;
+	}
+
+#expandAdminSideNavigator
+	{
+		position: absolute;
+		top: 55px;
+		left: 0px;
+		width: 20px;
+		height: 20px;
+	}
+
+#expandAdminSideNavigator img
+	{
+		position: absolute;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+		opacity: 1;
+		cursor: pointer;
+	}
+	
+#collapseAdminSideNavigator
+	{
+		position: absolute;
+		top: 55px;
+		left: 75px;
+		width: 20px;
+		height: 20px;
+	}
+
+#collapseAdminSideNavigator img
+	{
+		position: absolute;
+		top: 0px;
+		width: 15px;
+		height: 15px;
+		opacity: 1;
+		cursor: pointer;
+	}
+
+#headerListDown img
+	{
+		position: absolute;
+		width: 25px;
+		height: 25px;
+		opacity: 0.7;
+		cursor: pointer;
+	}
+	
+#headerListDown
+	{
+		position: absolute;
+		right:20px;
+		top: 8px;
+		width: 25px;
+		height: 25px;
+		opacity: 0.7;
+		cursor: pointer;
+	}
+	
+#headerListDownChoices
+	{
+		position: absolute;
+		left: -20px;
+		bottom:-60px;
+		visibility: hidden;
+		font-size: 20px;
+	}
+
+.adminSideNavigator
+ 	{ 
+		position:absolute;
+		top:55px;
+		left:0px;
+		width:85px;
+		height:800px;
+		padding: 5px;
+		background-color: #dbdbdb;	
+	}
+
+#adminSideNavigator img
+	{
+		position: relative;
+		left: 0px;
+		width: 65px;
+		height: 65px;
+		opacity: 0.6;
+		cursor: pointer;
+		padding: 10px;
+	}
+
+#adminSideNavigator img:hover
+	{
+		opacity: 1;
+	}
+
+.adminTopNavigator
+ 	{ 
+		position:absolute;
+		top:0px;
+		left:55px;
+	}
+
+#adminTopNavigator
+{
+	margin-top:5px
+}
+
+#adminTopNavigator ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#adminTopNavigator ul span
+{
+	display:block;
+	cursor: pointer;
+	color:#ff8040;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 5px;
+	font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#adminTopNavigator ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#adminTopNavigator ul li.currentMenu
+{
+	##background:#ffffff
+}
+
+#adminTopNavigator ul li:hover
+{
+	background:#ffffff
+}
+
+#adminTopNavigator ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#f0f0f0;
+	padding:0
+}
+
+#adminTopNavigator ul ul li
+{
+	float:none;
+	width:200px
+}
+
+#adminTopNavigator ul ul span
+{
+	line-height:120%;
+	cursor: pointer;
+	padding:10px 15px
+}
+
+#adminTopNavigator ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#adminTopNavigator ul li:hover > ul
+{
+	display:block
+}
+
+.adminActiveScreen
+ 	{ 
+		position:absolute;
+		top:65px;
+		left:10px;
+		width:98.5%;
+		height:800px;
+		overflow:auto;
+		background: rgba(255,255,255,0.7);
+		background: -moz-linear-gradient(-45deg, rgba(255,255,255,0.7) 8%, rgba(255,255,255,0.96) 70%, rgba(230,253,252,1) 79%, rgba(173,250,244,1) 99%);
+		background: -webkit-gradient(left top, right bottom, color-stop(8%, rgba(255,255,255,0.7)), color-stop(70%, rgba(255,255,255,0.96)), color-stop(79%, rgba(230,253,252,1)), color-stop(99%, rgba(173,250,244,1)));
+		background: -webkit-linear-gradient(-45deg, rgba(255,255,255,0.7) 8%, rgba(255,255,255,0.96) 70%, rgba(230,253,252,1) 79%, rgba(173,250,244,1) 99%);
+		background: -o-linear-gradient(-45deg, rgba(255,255,255,0.7) 8%, rgba(255,255,255,0.96) 70%, rgba(230,253,252,1) 79%, rgba(173,250,244,1) 99%);
+		background: -ms-linear-gradient(-45deg, rgba(255,255,255,0.7) 8%, rgba(255,255,255,0.96) 70%, rgba(230,253,252,1) 79%, rgba(173,250,244,1) 99%);
+		background: linear-gradient(135deg, rgba(255,255,255,0.7) 8%, rgba(255,255,255,0.96) 70%, rgba(230,253,252,1) 79%, rgba(173,250,244,1) 99%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#adfaf4', GradientType=1 );
+	}
+	
+.adminActiveScreen object
+ 	{ 
+		position:absolute;
+		width:100%;
+		height:100%;
+		background-color:#ffffff;
+	}
+
+.adminActiveScreen object html
+ 	{ 
+		background-color:#ffffff;
+	}
+
+input[type=button],input[type=submit]
+{
+	background-color:#ff8040;
+	min-width:85px;
+	height:30px;
+	cursor: pointer;
+}
+
+.progressBar
+{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(/Choice/Images/Icons/loadingBig.gif) center no-repeat #fff;
+}
+
+.adminActiveScreenBack
+ 	{ 
+		position: absolute;
+		top:67px;
+		right:37px;
+		width:25px;
+		height:20px;
+		cursor: pointer;
+	}
+	
+.adminActiveScreenBack img
+ 	{ 
+		width:100%;
+		height:100%;
+	}
+	
+.adminActiveScreenForward
+ 	{ 
+		position: absolute;
+		top:67px;
+		right:10px;
+		width:25px;
+		height:20px;
+		cursor: pointer;
+	}
+	
+.adminActiveScreenForward img
+ 	{ 
+		width:100%;
+		height:100%;
+	}
+
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1.25em;
+}
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25px;
+  height: 3px;
+  background: black;
+  box-shadow: 
+    0 7px 0 0 black,
+    0 14px 0 0 black;
+}
